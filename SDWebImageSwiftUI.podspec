@@ -34,6 +34,6 @@ It brings all your favorite features from SDWebImage, like async image loading, 
   }
 
   s.weak_frameworks = 'SwiftUI', 'Combine'
-  s.dependency 'SDWebImage', :git => 'https://github.com/SDWebImage/SDWebImage', :branch => 'master'
+  s.dependency 'SDWebImage', '~>5.11'
   s.swift_version = '5.2'
 end
